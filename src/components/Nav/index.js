@@ -1,4 +1,5 @@
 import React from "react";
+import "./Nav.css";
 
 function Nav() {
   return (
@@ -6,6 +7,10 @@ function Nav() {
       <a className="navbar-brand" href="/">
         Lace
       </a>
+      <div className="nav navbar-nav">
+        <a className="navlogin" href="/login">Login</a>
+        <a className="navsignup" href="/signup">Sign Up</a>
+      </div>
     </nav>
   );
 }
