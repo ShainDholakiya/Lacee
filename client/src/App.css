@@ -68,3 +68,28 @@ nav {
 .btn-laceedup {
   margin-top: 10px;
 }
+
+/* .boredorneedhelp {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+} */
+
+.bored {
+  margin-right: 50px;
+  font-size: 100px;
+}
+
+.needhelp {
+  font-size: 100px;
+}
+
+.boredorneedhelp {
+  text-align: center;
+  margin-top: 175px;
+}

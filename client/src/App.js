@@ -25,6 +25,7 @@ import Profile from "./components/profile/Profile";
 import Posts from "./components/posts/Posts";
 import Post from "./components/post/Post";
 import NotFound from "./components/not-found/NotFound";
+import BoredOrNeedHelp from "./components/BoredOrNeedHelp";
 
 import "./App.css";
 
@@ -91,6 +92,13 @@ class App extends Component {
                   exact
                   path="/add-education"
                   component={AddEducation}
+                />
+              </Switch>
+              <Switch>
+                <PrivateRoute
+                  exact
+                  path="/bored-or-needhelp"
+                  component={BoredOrNeedHelp}
                 />
               </Switch>
               <Switch>
