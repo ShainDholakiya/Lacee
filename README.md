@@ -1,6 +1,3 @@
-# DevConnector
+# Lacee
 
-https://evening-oasis-40760.herokuapp.com/
-
-## A MERN Stack application that is similar to LinkedIn except solely for developers.
-
+https://afternoon-sierra-62243.herokuapp.com/
