@@ -8,7 +8,7 @@ const BoredOrNeedHelp = () => {
         <i className="text-info mr-1" />
         Bored
       </Link>
-      <Link to="/needhelp" className="btn btn-dark needhelp">
+      <Link to="/needhelp" className="btn btn-danger needhelp">
         <i className="text-info mr-1" />
         Need Help
       </Link>
