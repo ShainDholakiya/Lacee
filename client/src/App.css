@@ -66,7 +66,9 @@ nav {
 }
 
 .btn-laceedup {
-  margin-top: 10px;
+  /* margin-bottom: 15px;
+  margin-top: 10px; */
+  margin: 0px 5px 0px 5px;
 }
 
 /* .boredorneedhelp {
@@ -104,6 +106,7 @@ nav {
   margin-top: 175px;
 }
 
-.red {
-  color: black;
+.laceedup-info {
+  margin-bottom: 0px;
+  font-size: 20px;
 }
