@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import PostForm from "./PostForm";
+// import PostForm from "./PostForm";
 import PostFeed from "./PostFeed";
 import Spinner from "../common/Spinner";
 import { getPosts } from "../../actions/postActions";
 
-class Posts extends Component {
+class PostRead extends Component {
   componentDidMount() {
     this.props.getPosts();
   }
@@ -26,8 +26,8 @@ class Posts extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <PostForm />
-              {/* {postContent} */}
+              {/* <PostForm /> */}
+              {postContent}
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ class Posts extends Component {
   }
 }
 
-Posts.propTypes = {
+PostRead.propTypes = {
   getPosts: PropTypes.func.isRequired,
   post: PropTypes.object.isRequired
 };
@@ -48,4 +48,4 @@ const mapStateToProps = state => ({
 export default connect(
   mapStateToProps,
   { getPosts }
-)(Posts);
+)(PostRead);
