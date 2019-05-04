@@ -36,7 +36,7 @@ class PostForm extends Component {
     this.props.addPost(newPost);
     this.setState({ text: "" });
 
-    alert("Your post has been sent to the bored page");
+    alert("Your post is being sent to the bored page");
   }
 
   onChange(e) {
