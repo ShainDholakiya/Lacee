@@ -27,7 +27,6 @@ import Post from "./components/post/Post";
 import PostRead from "./components/posts/PostRead";
 import NotFound from "./components/not-found/NotFound";
 import BoredOrNeedHelp from "./components/BoredOrNeedHelp";
-// import NeedHelp from "./components/BoredOrNeedHelp/NeedHelp";
 
 import "./App.css";
 
@@ -109,9 +108,6 @@ class App extends Component {
               <Switch>
                 <PrivateRoute exact path="/bored" component={PostRead} />
               </Switch>
-              {/* <Switch>
-                <PrivateRoute exact path="/feed" component={Posts} />
-              </Switch> */}
               <Switch>
                 <PrivateRoute exact path="/post/:id" component={Post} />
               </Switch>

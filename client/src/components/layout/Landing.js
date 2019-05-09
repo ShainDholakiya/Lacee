@@ -34,11 +34,15 @@ class Landing extends Component {
                     Login
                   </Link>
                 </div>
+
+                <a className="learn-more-btn" href="#about">
+                  <i className="fas fa-arrow-circle-down fa-2x" />
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="container about">
+        <div className="container about" id="about">
           <div className="row">
             <div className="col-md-12 text-center">
               <h1 className="display-3 mb-4">About Lacee</h1>

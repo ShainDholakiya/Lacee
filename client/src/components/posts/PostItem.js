@@ -36,7 +36,7 @@ class PostItem extends Component {
         <div className="row">
           <div className="col-md-2">
             {/* <Link to={`/profile/${profile.handle}`}> */}
-            <a href="">
+            <a href="profile.html">
               <img
                 className="rounded-circle d-none d-md-block"
                 src={post.avatar}
