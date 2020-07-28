@@ -16,8 +16,10 @@ https://laceeup.herokuapp.com/
 
 ## Functions of this application inlclude:
 - Creating a profile 
+- Editing/Removing profile attributes
 - Viewing all users on the platform 
 - Creating a post 
+- Editing/Removing a post
 - Commenting on a post 
 - Liking a post 
 - Secured route access
