@@ -2,7 +2,17 @@
 
 https://laceeup.herokuapp.com/
 
-## MERN Stack
+## Tech Stack
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+
+## Packages
+- [Gravatar](https://www.npmjs.com/package/gravatar)
+- [JSONWebToken](https://www.npmjs.com/package/jsonwebtoken)
+- [BycrptJS](https://www.npmjs.com/package/bcryptjs)
+- [Passport-JWT](https://www.npmjs.com/package/passport-jwt)
 
 ## Functions of this application inlclude:
 - Creating a profile 
