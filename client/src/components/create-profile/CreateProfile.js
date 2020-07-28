@@ -121,19 +121,6 @@ class CreateProfile extends Component {
       );
     }
 
-    // Select options for status
-    // const options = [
-    //   { label: "* Select Professional Status", value: 0 },
-    //   { label: "Developer", value: "Developer" },
-    //   { label: "Junior Developer", value: "Junior Developer" },
-    //   { label: "Senior Developer", value: "Senior Developer" },
-    //   { label: "Manager", value: "Manager" },
-    //   { label: "Student or Learning", value: "Student or Learning" },
-    //   { label: "Instructor or Teacher", value: "Instructor or Teacher" },
-    //   { label: "Intern", value: "Intern" },
-    //   { label: "Other", value: "Other" }
-    // ];
-
     return (
       <div className="create-profile">
         <div className="container">
@@ -195,14 +182,6 @@ class CreateProfile extends Component {
                   info="Please use comma separated values (eg.
                     Web Development,Social Media Marketing,Writing"
                 />
-                {/* <TextFieldGroup
-                  placeholder="Github Username"
-                  name="githubusername"
-                  value={this.state.githubusername}
-                  onChange={this.onChange}
-                  error={errors.githubusername}
-                  info="If you want your latest repos and a Github link, include your username"
-                /> */}
                 <TextAreaFieldGroup
                   placeholder="Short Bio"
                   name="bio"
